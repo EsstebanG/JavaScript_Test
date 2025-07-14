@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "fullname": "Robinson",
+      "email": "RIWI123@gmail.com",
+      "password": "123",
+      "id": "2985"
+    },
+    {
+      "fullname": "Esteban",
+      "email": "prueba@gmail.com",
+      "password": "1234",
+      "id": "27df"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+/** BASIC - RESET **/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/** - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - **/
+
+/** GLOBAL - STYLES **/
+aside {
+    background-color: rgb(233, 200, 240);
+    padding: 5px;
+    width: 250px;
+    height: 900px;
+    float: left;
+}
+aside h1 {
+    text-align: center;
+    margin-bottom: 30vh;
+}
+
+
+footer {
+    background-color: rgb(233, 200, 240);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    color: rgb(133, 133, 133);
+}
+
+/** - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - **/
+
+/** USER - COMPONENTS **/
+.user-container {
+    display: flex;
+    margin-bottom: 30vh;
+}
+
+/** - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - **/
+
+/** LOGOUT - BUTTON **/
+
+.log-out-button {
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(121, 8, 8);
+}  

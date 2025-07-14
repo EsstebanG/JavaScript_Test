@@ -1,0 +1,59 @@
+/** BASIC - RESET **/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/** - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - **/
+
+/** GLOBAL - STYLES **/
+header {
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    color: rgb(133, 133, 133);
+}
+
+/** - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - **/
+
+/** FORM **/
+
+/* Form - Container */
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 7vh;
+    align-items: center;
+}
+
+/* Form - Title  */
+.register-title {
+    padding: 15px;
+}
+
+/* Form - Inputs */
+.form-container input {
+    padding: 11px;
+    width: 550px;
+}
+
+/* Form - Button */
+.form-container .btn {
+    width: 550px;
+}
+
+
+/* Form - Link */
+.form-container p {
+    padding: 15px;
+}
