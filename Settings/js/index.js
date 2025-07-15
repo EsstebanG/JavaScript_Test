@@ -43,10 +43,9 @@ async function auth() {
                 title: "Fields required",
                 text: "Please fill in all fields before continuing.",
             });
-        }
-
-        if(email == "RIWI123@gmail.com" && password == "123") {
+        } else if(userAdmin) {
             localStorage.setItem("role", "admin");
+            sessionStorage.setItem("role", "admin");
             sessionStorage.setItem("fullName", "Robinson");
 
             // Show success alert and then redirect to ???.
@@ -61,7 +60,7 @@ async function auth() {
             });
         } else if (userFound) {
             // Save user data in session and localStorage
-            localStorage.setItem("role", "visitor")
+            localStorage.setItem("role", "visitor");
             sessionStorage.setItem("role", "visitor");
             
             // Show success alert and then redirect to index.html

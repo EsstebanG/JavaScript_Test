@@ -12,5 +12,14 @@
       "password": "1234",
       "id": "27df"
     }
+  ],
+
+  "events": [
+    {
+      "nameEvent": "Event 1",
+      "description": "Event in RIWI.",
+      "date": "10-22-2025",
+      "capacity": "49"
+    }
   ]
 }

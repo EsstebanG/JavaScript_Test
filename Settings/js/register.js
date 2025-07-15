@@ -75,9 +75,9 @@ document.getElementById('registerForm').addEventListener('submit', async (e) => 
             })
             
             if (res.ok) {
-                setTimeout(() => {
+                etTimeout(() => {
                     document.getElementById('registerForm').reset(); // We clean the inputs of the form.
-                }, 10000); // 10000 ms = 10 seconds.
+                }, 10000); // 10000 ms = 10 seconds.s
             } else {
                 Swal.fire('Error', 'Could not register the user', 'error');
             }
